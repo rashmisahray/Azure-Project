@@ -1,0 +1,9 @@
+{
+	"name": "adf-spotify-cent",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ff495cfc-c054-4d59-8a27-48dea5e18f3b",
+		"tenantId": "e14e73eb-5251-4388-8d67-8f9f2e2d5a46"
+	}
+}
