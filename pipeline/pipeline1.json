@@ -260,7 +260,12 @@
 							"inputs": [
 								{
 									"referenceName": "Json_dynamic",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"container": "bronze",
+										"file": "monitor",
+										"folder": "empty.json"
+									}
 								}
 							],
 							"outputs": [
