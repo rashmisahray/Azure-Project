@@ -132,7 +132,7 @@
 									{
 										"type": "Query",
 										"text": {
-											"value": "@concat(\n    'SELECT MAX(', pipeline().parameters.cdc, ') AS max_cdc FROM ',\n    pipeline().parameters.schema, '.', pipeline().parameters.table\n)\n",
+											"value": "@concat(\n        'SELECT MAX(',pipeline().parameters.cdc,') AS max_cdc FROM \n                ',\n                    pipeline().parameters.schema,'.',pipeline().parameters.table\n                    )\n)",
 											"type": "Expression"
 										}
 									}
